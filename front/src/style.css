@@ -1,0 +1,52 @@
+body {
+    background-color: #f1f5f8;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    height: 630px;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 black;
+}
+
+.agr {
+    border-radius: 100%;
+    bottom: 25px;
+    font-size: 25px;
+    padding: 25px;
+    position: fixed;
+    right: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.agr:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    padding: 1rem 1.5rem;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}   
+
+.card-img-top {
+    width: 100%;
+    height: 200px; /* Ajusta esta altura como prefieras */
+    object-fit: cover; /* Esto asegura que la imagen mantenga el aspecto correcto */
+  }
+  
