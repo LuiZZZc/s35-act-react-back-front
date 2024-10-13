@@ -6,8 +6,7 @@ const port = 4000
 
 getConnection(); 
 
-//app.use(cors({origin: "http://localhost:3000"}))
-app.use(cors({origin: "https://front-j7df.onrender.com/"}))
+app.use(cors({origin: "https://front-j7df.onrender.com"}))
 app.use(express.json())
 
 app.use("/genero", require("./router/genero"));
